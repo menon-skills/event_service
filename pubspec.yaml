@@ -1,0 +1,14 @@
+name: event_service
+description: An event service that distributes events localy. Based on Streams.
+version: 0.0.1
+author: Christoph Rathgeb <christoph@menon.education>, Thomas Rathgeb <thomas@menon.education>, Michael Moor <mike@menon.education>
+homepage: https://www.menon.group
+repository: https://github.com/menon-skills/event_service
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.15.7
